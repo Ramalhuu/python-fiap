@@ -1,0 +1,156 @@
+# Estrutura de condição
+# Ex. 1
+
+# a = int(input("Digite um número inteiro: "))
+# b = int(input("Digite um número inteiro: "))
+
+# #Estrutura de condição
+
+# if a > b:
+#     print("A é maior!")
+
+# elif a == b:
+#     print("A e B são iguais!")
+
+# else:
+#     print("B é maior")
+
+################################################
+
+# Ex. 2
+
+# a = int(input("Digite um número inteiro: "))
+# b = int(input("Digite um número inteiro: "))
+# c = int(input("Digite um número inteiro: "))
+
+# if a > b and a == c:
+#     print("Resultado esperado")
+    
+# else:
+#     print("Resultado não esperado")
+    
+################################################
+
+# velocidade = float(input("Digite sua velocidade em km/h: "))
+# multa = (velocidade-80)*50
+
+# if velocidade > 80:
+#     print("Você tomou uma multa de", multa)
+    
+# elif velocidade < 50:
+#     multa = (50 - velocidade) * 25
+#     print(f"O valor da multa é {multa}")
+    
+# else:
+#     print("Você não tomou multa!")
+
+################################################
+
+# Ex. 4
+
+# idade = int(input("Digite sua idade: "))
+
+# if idade < 12:
+#     print("Você é uma criança")
+    
+# elif 12 <= idade < 18:
+#      print("Você é um adolescente")
+# elif 18 <= idade < 65:
+#     print("Você é um adulto")
+
+# elif 65 <= idade < 1000:
+#      print("Você é idoso")
+
+################################################
+     
+# Ex. 5
+# numero = int(input("Digite um número inteiro: "))
+
+
+# if numero %2 == 0:
+#     print("Esse número é par!")
+# else:
+#     print("Esse número é impar")
+
+################################################
+
+# Ex. 6
+
+# salario = int(input("Digite seu salário: "))
+
+# if salario <= 2000:
+#     novo = salario - salario*0.1
+#     print("O seu salário depois do desconto será de: ", novo)
+# elif 2000 < salario <= 3500:
+#      novo = salario - salario*0.15
+#      print("O seu salário depois do desconto será de: ", novo)
+# elif 3500 < salario <= 4500:
+#     novo = salario - salario*0.20
+#     print("O seu salário depois do desconto será de: ", novo)
+# elif 4500 < salario:
+#     novo = salario - salario*0.25
+#     print("O seu salário depois do desconto será de: ", novo)
+
+# # Ex. 7
+# numero1 = float(input("Digite o primeiro número: "))
+# numero2 = float(input("Digite o segundo número: "))
+
+# escolha = str(input("Escolha uma opção (soma, divisão, multiplicação, e subtração): "))
+
+# if escolha == ("soma"):
+#     resultado = numero1 + numero2
+#     print(f"O número {numero1} somado pelo número {numero2} é igual a {resultado}")
+
+# elif escolha == ("divisao"):
+#     resultado = numero1 / numero2
+#     print(f"O número {numero1} dividido pelo número {numero2} é igual a {resultado}")
+# elif escolha == ("multiplicaçao"):
+#     resultado = numero1 * numero2
+#     print(f"O número {numero1} multiplicado pelo número {numero2} é igual a {resultado}")
+# elif escolha == ("subtraçao"):
+#     resultado = numero1 - numero2
+#     print(f"O número {numero1} subtraido pelo número {numero2} é igual a {resultado}")
+
+############################################
+
+# Ex. 8 - Condição com or
+
+# idade = int(input("Digite sua idade: "))
+# tipo_ingresso = str(input("Digite seu tipo de ingresso (1-VIP, 2-COMUM): "))
+
+# if (idade > 18) or (tipo_ingresso == '1'):
+#     print("Acesso permitido!")
+# else:
+#     print("Acesso negado!")
+
+############################################
+
+# Ex. 9
+
+# senha = str(input("Digite sua senha: "))
+# codigo = str(input("Digite seu código: "))
+
+# senhaseguranca = 'fiap'
+# codigoseguranca = 'fiap123'
+
+# if (senha == senhaseguranca) or (codigo == codigoseguranca):
+#     print("Acesso permitido!")
+# else:
+#     print("Acesso negado!")
+
+############################################
+
+# Ex. 10
+
+idade = int(input("Digite sua idade: "))
+tem_pet = str(input("Digite se tem ou não tem pet (sim ou nao): "))
+
+if not (idade < 16 or tem_pet == 'sim'):
+    print("Você pode entrar!")
+else:
+    print("Acesso não permitido!")
+
+
+
+     
+     
