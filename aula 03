@@ -1,0 +1,124 @@
+# raio = float(input("Digite o raio: "))
+# area_circulo = 3.1415 * raio**2
+# print(raio)
+# print(area_circulo)
+
+# if area_circulo >= 30:
+#     print(f"Área requerida {area_circulo: .02f}")
+# else:
+#        print('Área a ser verificada!') 
+    
+# forma_geometrica = str(input("Digite qual forma geométrica(circulo, triangulo, retangulo, quadrado): "))
+
+# if forma_geometrica == 'triangulo':
+#     base = float(input("Digite a base do triângulo: "))
+#     altura = float(input("Digite a altura do triângulo: "))
+#     area_triangulo = (base * altura) / 2
+#     print(f"A área do triangulo será de: {area_triangulo: .02f}")
+# elif forma_geometrica == 'circulo':
+#     raio = float(input("Digite o raio: "))
+#     area_circulo = raio**2 * 3.1415
+#     print(f"A área do círculo será de: {area_circulo: .02f}")
+# elif forma_geometrica == 'retangulo' and 'quadrado':
+#     lado1 = float(input("Digite o primeiro lado: "))
+#     lado2 = float(input("Digite o segundo lado: "))
+#     area_retangulo = lado1 * lado2
+#     print(f"A área será de: {area_retangulo: .02f}")
+    
+# marca_carro = str(input("Digite uma marca de carro: "))
+
+# if marca_carro = 'bmw':
+#     tipo_carro = str(input('Digite o tipo de carro (sedan, hatch, suv)'))
+#     if tipo_carro == 'sedan'
+
+
+# numero1 = int(input("Digite um número inteiro: "))
+# numero2 = int(input("Digite um segundo número inteiro: "))
+# numero3 = int(input("Digite um terceiro número inteiro: "))
+
+# if numero1 == numero2 or numero1 == numero3 or numero3 == numero2 or numero3 == numero1 :
+#     print('Possui números repetidos!')
+# elif numero1 > numero2 and numero1 > numero3:
+#     print(f"O maior número é o primeiro({numero1})")
+# elif numero2 > numero1 and numero2 > numero3:
+#     print(f"O maior número é o segundo({numero2})")
+# elif numero3 > numero2 and numero3 > numero1:
+#     print(f"O maior número é o terceiro({numero3})")
+    
+# if numero1 > numero2 and numero3:
+#     print(f"O maior número é o primeiro({numero1})")
+# elif numero2 > numero1 and numero3:
+#     print(f"O maior número é o segundo({numero2})")
+# elif numero3 > numero2 and numero1:
+#     print(f"O maior número é o terceiro({numero3})")
+# elif (numero1 == numero2):
+#     print('Possui números repetidos!')
+# elif (numero1 == numero3):
+#     print('Possui números repetidos!')
+# elif (numero3 == numero2):
+#     print('Possui números repetidos!')
+
+
+# login_usuario = str(input("Digite seu usúario: "))
+# login_senha = str(input("Digite sua senha: "))
+# usuarios_limitados = ["user1", "guest"]
+
+# if login_usuario == 'admim' and login_senha == '12345' :
+#     print('Acesso concedido!')
+# elif login_usuario == 'admim' and login_senha != '12345':
+#     print("Senha incorreta!")
+# elif login_usuario in usuarios_limitados:
+#     print("Acesso limitado!")
+# else: 
+#     print("Usúario não reconhecido!")
+
+# consumo_mensal = float(input("Escreva seu consumo mensal em kWh: "))
+# if consumo_mensal < 50:
+#     preço = consumo_mensal*0.5
+#     print(f"Você deverá pagar: {preço: .02f}")
+# elif 100 > consumo_mensal > 50:
+#     preço = consumo_mensal*0.75
+#     print(f"Você deverá pagar: {preço: .02f}")
+# else:
+#     preço = (consumo_mensal*1.2) + 5
+#     print(f"Você deverá pagar: {preço: .02f}")
+    
+
+# tipo = str(input("Digite o tipo de turbina(kaplan, francis e pelton): ") )
+# vazao = str(input("Digite a vazão da água(baixa, media ou alta): "))
+ 
+
+# if tipo == 'kaplan' and vazao == 'alta' or tipo == 'pelton' and vazao == 'baixa':
+#     print("Eficiência máxima!")
+# elif tipo == 'francis' and vazao in ['alta', 'media']:
+#     print("Eficiência moderada!")
+# elif tipo == 'francis' and vazao == 'baixa':
+#     print("Eficiência mínima!")
+# else:
+#     print("Eficiência mínima!")
+
+
+# Um simulador de usina hidrelétrica classifica a eficiência de turbinas baseada em dois fatores:
+
+# Tipo de turbina (Kaplan, Francisou Pelton).Vazão de água (baixa, média ou alta).
+# O programa deve receber esses dois dados e retornar:
+
+# "Eficiência máxima": Se for Kaplan+ alta vazão OU Pelton + baixavazão.
+# "Eficiência moderada": Se for Francis + qualquer vazão, exceto Francis + baixa.
+# "Eficiência mínima": Casos restantes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
