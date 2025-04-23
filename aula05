@@ -1,0 +1,128 @@
+# Ex. 1
+#for
+
+# num_temperaturas = int(input("Digite quantas temperaturas vão ser convertidas: "))
+
+
+# for temp in range(num_temperaturas):
+#    temp_fahr = float(input("Digite a temperatura em fahrenheit: "))
+#    temp_celsius = (5/9) * (temp_fahr - 32)
+#    print(f'A temperatura {temp_fahr} em graus é {temp_celsius}°C')
+
+
+###############################
+# While
+
+# num_temperaturas = int(input("Digite quantas temperaturas vão ser convertidas: "))
+# contador = 0
+
+
+# while contador < num_temperaturas:  # Loop enquanto o contador for menor que o número de temperaturas
+#    temp_fahr = float(input("Digite a temperatura em fahrenheit: "))
+#    temp_celsius = (5/9) * (temp_fahr - 32)
+#    print(f'A temperatura {temp_fahr} em fahrenheit é {temp_celsius}°C')
+   
+#    contador += 1
+    
+####################################
+# Ex. 2
+
+# Estrutura para inserir nomes em uma lista
+
+# lista_nomes = []
+
+# for nome in range(5):
+#     nomes = input("Digite seu nome: ")
+#     lista_nomes.append(nomes)
+# print(lista_nomes)
+
+# Ex. 3
+
+# Estrutura para bancar um nome
+
+# for nomes in lista_nomes:
+#     if nomes == 'martim':    
+#         print(nomes)
+#         break
+####################################
+
+# Ex. 4
+
+# lista_nomes = []
+# lista_cpfs = []
+# lista_nascimentos = []
+
+# for lista in range(5):
+#     nomes = input("Digite seu nome: ")
+#     cpfs = str(input("Digite seu cpf: "))
+#     nascimentos = str(input("Digite seu estado de nascimento: "))
+#     lista_nomes.append(nomes)
+#     lista_cpfs.append(cpfs)
+#     lista_nascimentos.append(nascimentos)
+
+#     print(lista_nomes)
+#     print(lista_cpfs)
+#     print(lista_nascimentos)
+
+# # Relacionar os dados das três listas utilizando estrutura de repetição for
+
+# for i in range(5):
+#     print(f'Nome: {lista_nomes[i]}, CPF: {lista_cpfs[i]}, Estado de Nascimento: {lista_nascimentos[i]}')
+
+####################################
+# Ex 5.
+
+# senha_correta = 'python123'
+# tentativas = 0
+# senha = input("Digite a senha: ")
+
+# while senha != senha_correta and tentativas < 2:
+#     tentativas += 1
+#     print("Senha incorreta!")
+#     senha = input("Digite a senha: ")
+
+# if senha == senha_correta:
+#     print("Acesso liberado")
+# else:
+#     print("Número de tentativas excedido")
+
+####################################
+# Ex. 6
+
+# frutas = ['maça', 'banana', 'uva', 'laranja']
+# indice = 0
+
+# while indice < len(frutas):
+#     print(frutas[indice])
+#     indice += 1
+
+####################################
+
+# Ex. 7
+# numero = 1
+
+# while numero <= 10:
+#     print(numero)
+#     numero += 1
+
+# print(f'Parabéns, você chegou ao último número ({numero})')
+
+####################################
+#Ex. 8
+
+# numero_escolhido = int(input("Digite um número: "))
+
+# if numero_escolhido > 0 and numero_escolhido < 11:
+#     print(f'Parabéns, você escolheu um número entre 1 e 10 ({numero_escolhido})')
+# else:
+#     print("Infelizmente você não escolheu um número entre 1 e 10")
+
+####################################
+#Ex. 9
+
+numero_digitado = int(input("Digite um número: "))
+
+while numero_digitado != 0:
+    numero = int(input("Digite outro número: "))
+
+if  
