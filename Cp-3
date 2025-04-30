@@ -1,0 +1,164 @@
+# palavra = 'universidade de oxford'
+# letra_alvo = 'e'
+# contador = 0
+
+# for letra in palavra:
+#     if letra == letra_alvo:
+#         contador += 1
+        
+# print(f"A letra {letra_alvo} aparece {contador} vezes no texto!")
+
+
+###############################################################
+
+# lista_produtos = []
+# lista_preco = []
+# contador = 0
+
+# while contador < 10:
+#     produto = input("Digite o produto: ")
+#     preco = float(input("Digite o valor do produto: "))
+#     lista_produtos.append(produto)
+#     lista_preco.append(preco)
+#     contador += 1
+
+# for total in lista_preco:
+#     total_preco = sum(lista_preco)
+#     media_preco = total_preco / 10
+
+    
+# print(f'O preço total da lista é de {total_preco}')
+# print(f"A média de preço de itens da lista é de {media_preco}") 
+
+# nomes = 0
+# lista_nomes = []
+# lista_nomes_curtos = []
+# lista_nomes_longos = []
+
+# while nomes < 10:
+#     nomes_pergunta = input("Digite um nome: ")
+#     lista_nomes.append(nomes_pergunta)
+#     nomes += 1
+    
+
+# for nome in lista_nomes:
+#     if len(nome) < 5:
+#         lista_nomes_curtos.append(nome)
+        
+# for nome in lista_nomes:
+#     if len(nome) >= 5:
+#         lista_nomes_longos.append(nome)
+        
+# print(f"Os nomes pequenos são {lista_nomes_curtos}, e os longos são {lista_nomes_longos}")
+    
+ 
+prioridade_lista = []   
+tarefas_lista = []
+prioridade_alta = []
+prioridade_media = []
+prioridade_baixa = []
+
+prioridades = {'alta': 1, 'media': 2, 'baixa': 3}
+
+for i in range(8):
+    tarefa = input("Digite sua tarefa: ")
+    prioridade = input("Digite a prioridade da tarefa (alta, media, baixa): ")
+
+    tarefas_lista.append({'Tarefa': tarefa, 'Prioridade': prioridade})
+
+    if prioridade == 'alta':
+        prioridade_alta.append(tarefa)
+    elif prioridade == 'media':
+        prioridade_media.append(tarefa)
+    elif prioridade == 'baixa':
+        prioridade_baixa.append(tarefa)
+    else:
+        print("Prioridade inválida!")
+
+print("Tarefas por prioridade:")
+
+print(f'Prioridade alta: {prioridade_alta}')
+print(f'Prioridade media: {prioridade_media}')
+print(f'Prioridade baixa: {prioridade_baixa}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    
+# print(tarefas_lista)
+
+# while prioridade_pergunta == ('alta'):
+#     prioridade_alta.append(tarefas_lista)
+#     print(prioridade_alta)
+# while prioridade_pergunta == ('media'):
+#     prioridade_alta.append(tarefas_lista)
+#     print(prioridade_media)
+# while prioridade_pergunta == ('baixa'):
+#     prioridade_alta.append(tarefas_lista)
+#     print(prioridade_baixa)
+       
+       
+
+   
+
+
+
+
+
+
+
+# while prioridade_lista == 'alta':
+#     prioridade_alta.append(tarefas)
+#     print(prioridade_alta)
+#     break
+    
+# while prioridade_lista == 'media':
+#     prioridade_media.append(tarefas)
+#     print(prioridade_media)
+#     break
+    
+# while prioridade_lista == 'baixa':
+#     prioridade_baixa.append(tarefas)
+#     print(prioridade_baixa)
+#     break
+    
+
+    
+# print(prioridade_alta)
+# print(prioridade_media)
+# print(prioridade_baixa)
+     
+
+
+
+
+
+
+
+
+# for k in range(10):
+#     universidade = input("Digite o nome da universidade: ")
+#     lista_universidades.append(universidade)
+
+    
+# print(lista_universidades)
+
+# for universidade in lista_universidades:
+#     if universidade == 'oxford':
+#         print(universidade)
+#         break
+    
