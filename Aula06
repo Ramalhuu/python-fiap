@@ -1,0 +1,138 @@
+# Ex. 1
+
+# def eleva_quadrado(x, y):
+#     quadrado = x*x
+#     quadrado2 = y*y
+#     return quadrado, quadrado2
+
+# var1 = float(input("Digite um número: "))
+# var2 = float(input("Digite um número: "))
+
+# print(eleva_quadrado(var1, var2))
+
+# z, w = eleva_quadrado(var1, var2)
+# print(z)
+# print(w)
+
+
+##################################################
+#Ex. 3
+
+# def saudacao():
+#     print('Olá')
+    
+# saudacao()
+
+##################################################
+#Ex. 4
+
+# def saudacao_personalizada(nome):
+#     print(f"Olá {nome}! Seja bem vindo!")
+    
+# saudacao_personalizada('ana')
+
+##################################################
+#Ex. 5
+
+# def saudacao_personalizada(nome):
+#     print(f"Olá {nome}! Seja bem vindo!")
+    
+# nome = str(input("Digite seu nome: "))
+    
+# saudacao_personalizada(nome)
+
+##################################################
+# Exercícios.
+
+
+# def calcular_area_geometrica(raio, base_triangulo, altura_triangulo, base_ret, altura_ret):
+#     "Calcular área geométrica do círculo, triângulo e retângulo"
+    
+#     area_circulo = 3.14 * raio**2
+#     area_triangulo = (base_triangulo * altura_triangulo) / 2
+#     area_retangulo = base_ret * altura_ret
+    
+#     return area_circulo, area_triangulo, area_retangulo
+    
+
+
+# calcular_area_geometrica(10, 5, 4, 8, 6)
+
+
+# circulo, triangulo, retangulo = calcular_area_geometrica(10, 5, 4, 8, 6)
+# print(circulo)
+# print(triangulo)
+# print(retangulo)
+
+##################################################
+#Ex. 2
+
+# def calcular(V, I, R):
+#     potencia = V*I
+#     resistencia = V/R
+#     corrente = V*R
+#     tensao = I*R
+    
+#     return potencia, resistencia, corrente, tensao
+
+# V = float(input("Digite a voltagem(W): "))
+# I = float(input("Digite a corrente(A): "))
+# R = float(input("Digite a resistência(R): "))
+
+# potencia, resistencia, corrente, tensao = calcular(V, I, R)
+# print(potencia)
+# print(resistencia)
+# print(corrente)
+# print(tensao)
+
+
+##################################################
+#Ex. 8
+
+# def verifica_nome(nome):
+    
+#     if nome == 'ana':
+#         return "gerente"
+#     else:
+#         return "programadora"
+    
+# verifica_nome('felipe')
+
+##################################################
+#Ex. 9
+
+# def verifica_idade(idade):
+#     if idade <= 12:
+#         return "Criança"
+#     elif 12 < idade < 18:
+#         return "Adolescente"
+#     elif 18 < idade < 65:
+#         return "Adulto"
+#     elif idade > 65:
+#         return "Idoso"
+#     else:
+#         return "Erro"
+    
+# idade = int(input("Digite a idade: "))
+# print(verifica_idade(idade))
+
+##################################################
+#Ex. 10
+
+def validacao_usuario(nome, senha):
+    if nome == 'felipe' and senha == '1234':
+       senha == '1234'
+       return "Acesso validado!"
+    else:
+       return "Nome de usúario ou senha incorretos!"
+   
+nome = str(input("Digite o nome: "))
+senha = str(input("Digite a senha: "))
+   
+   
+print(validacao_usuario(nome, senha))
+
+
+
+
+    
